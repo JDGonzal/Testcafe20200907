@@ -1,5 +1,8 @@
 {
     "scripts": {
-      "demotest": "testcafe chrome tests/session2/firsttest.js"
+      "testDemo": "testcafe chrome tests/session2/*.js"
+  },
+  "dependencies": {
+    "testcafe": "^1.9.2"
   }
 }
