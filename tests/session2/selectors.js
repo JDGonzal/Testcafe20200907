@@ -6,7 +6,7 @@ const elementWithId = Selector(id => {
 });
 
 //options.dependency syntax
-const persitentId = 'item-3';
+const persistentId = 'item-3';
 
 const webElement = Selector(() =>{
     return document.getElementById(persitentId);
