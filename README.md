@@ -3,12 +3,12 @@
 Exercises based on this site 
 [TESTCAFE TUTORIAL For Beginners](https://www.youtube.com/watch?v=asAFgzIAOIU&list=PLYDwWPRvXB8_TDgPmQyMNjN6gaI8yS7KQ&index=2)
 
-##Sugestion to learn Testcafe 
+## Sugestion to learn Testcafe 
 Other sites for suppor are:
  - [testcafe](https://devexpress.github.io/testcafe/)
  - [demoQA](https://demoqa.com/)
 
- ##Steps to start
+ ## Steps to start
  1. Install NPM and NODEJS in your system 
     [nodejs](https://nodejs.org/en/download/current/)
  2. check in $path or %path% the nodeJS and npm are on it
