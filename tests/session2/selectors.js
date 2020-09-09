@@ -147,7 +147,6 @@ test
 });
 
 test
-
 ('With Exact selector example', async t => {
     console.log('---------------------------------');
     console.log('With Exact selector example');
@@ -169,4 +168,4 @@ test
     const headerString = await headerSelector.innerText;
 
     console.log('Header String: "' + headerString+ '"');    
-});
+})

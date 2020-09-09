@@ -1,6 +1,6 @@
 {
     "scripts": {
-      "testDemo": "testcafe chrome tests/session2/*.js"
+      "testDemo": "testcafe chrome tests/session2/selectors_p.js"
   },
   "dependencies": {
     "testcafe": "^1.9.2"
