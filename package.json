@@ -1,8 +1,8 @@
 {
-    "scripts": {
-      "testDemo": "testcafe chrome tests/session3/*.js"
+  "scripts": {
+    "testDemo": "testcafe chrome tests/Assertion_Api/*.js"
   },
   "dependencies": {
-    "testcafe": "^1.9.2"
+    "testcafe": "^1.9.4"
   }
 }
