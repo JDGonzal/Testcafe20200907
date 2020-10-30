@@ -1,8 +1,11 @@
 {
     "scripts": {
-      "testDemo": "testcafe chrome tests/session3/*.js"
+      "testDemo": "testcafe chrome tests/session3/*.js",
+      "testAssertions": "testcafe chrome tests/Assertion_Api/assertion.js",
+      "testmultipleWindow": "testcafe chrome tests/multiple_Window/multipleWindow.js",
+      "testTAU": "testcafe chrome tests/TAU/*js"
   },
   "dependencies": {
-    "testcafe": "^1.9.2"
+    "testcafe": "^1.9.4"
   }
 }
