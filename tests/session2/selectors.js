@@ -6,7 +6,7 @@ const elementWithId = Selector(id => {
 });
 
 //options.dependency syntax
-const persitentId = 'item-3';
+const persistentId = 'item-3';
 
 const webElement = Selector(() =>{
     return document.getElementById(persitentId);
@@ -147,7 +147,6 @@ test
 });
 
 test
-
 ('With Exact selector example', async t => {
     console.log('---------------------------------');
     console.log('With Exact selector example');
@@ -169,4 +168,4 @@ test
     const headerString = await headerSelector.innerText;
 
     console.log('Header String: "' + headerString+ '"');    
-});
+})
