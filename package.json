@@ -3,7 +3,11 @@
       "testDemo": "testcafe chrome tests/session3/*.js",
       "testAssertions": "testcafe chrome tests/Assertion_Api/assertion.js",
       "testmultipleWindow": "testcafe chrome tests/multiple_Window/multipleWindow.js",
-      "testTAU": "testcafe chrome tests/TAU/*.js"
+      "testTAU": "testcafe chrome tests/TAU/*.js",
+      "testAllBrowsers": "testcafe all tests/TAU/Iframetest.js",
+      "testPararellTest": "testcafe -c 2 chrome,firefox tests/TAU/hoverTest.js",
+      "testLiveMode": "testcafe chrome tests/TAU/dragtest.js -L",
+      "testHeadless": "testcafe chrome:headless tests/TAU/uploadFileTest.js"
   },
   "dependencies": {
     "testcafe": "^1.9.4"
